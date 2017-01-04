@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ListView lv = (ListView) findViewById(R.id.lv);
+        ListView lv = (ListView) findViewById(R.id.lv);//llll
 
         final String[] values = new String[] {
                 "CustomAlertDialog",
